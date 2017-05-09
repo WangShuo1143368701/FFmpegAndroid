@@ -1,0 +1,14 @@
+prefix=/e/yinshipin/ffmpeg-3.3/ffmpeg-3.3/android/arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.82.100
+Requires: 
+Requires.private: libswscale >= 4.6.100, libavformat >= 57.71.100, libavcodec >= 57.89.100, libswresample >= 2.7.100, libavutil >= 55.58.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -lm -lz -pthread
+Cflags: -I${includedir}
