@@ -1,0 +1,14 @@
+prefix=/e/yinshipin/ffmpeg-3.3/ffmpeg-3.3/android/arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 57.71.100
+Requires: 
+Requires.private: libavcodec >= 57.89.100, libswresample >= 2.7.100, libavutil >= 55.58.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -lz -pthread
+Cflags: -I${includedir}

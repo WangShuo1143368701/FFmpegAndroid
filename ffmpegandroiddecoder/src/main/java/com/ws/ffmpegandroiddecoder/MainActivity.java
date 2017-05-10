@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public native String decode(String inputurl, String outputurl);;
+    public native int decode(String inputurl, String outputurl);
 
 
     public native String avcodecinfo();
