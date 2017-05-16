@@ -1,0 +1,14 @@
+prefix=/e/yinshipin/ffmpeg-3.3/ffmpeg-3.3/android/arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 4.6.100
+Requires: 
+Requires.private: libavutil >= 55.58.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: -lm
+Cflags: -I${includedir}

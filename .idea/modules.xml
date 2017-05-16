@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroidavfilter/ffmpegandroidavfilter.iml" filepath="$PROJECT_DIR$/ffmpegandroidavfilter/ffmpegandroidavfilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroiddecoder/ffmpegandroiddecoder.iml" filepath="$PROJECT_DIR$/ffmpegandroiddecoder/ffmpegandroiddecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroidplayer/ffmpegandroidplayer.iml" filepath="$PROJECT_DIR$/ffmpegandroidplayer/ffmpegandroidplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ffmpegandroidwallpaper/ffmpegandroidwallpaper.iml" filepath="$PROJECT_DIR$/ffmpegandroidwallpaper/ffmpegandroidwallpaper.iml" />
     </modules>
   </component>
 </project>
