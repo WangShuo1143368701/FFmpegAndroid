@@ -1,0 +1,14 @@
+prefix=/e/yinshipin/ffmpeg-3.3/ffmpeg-3.3/android/arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.58.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

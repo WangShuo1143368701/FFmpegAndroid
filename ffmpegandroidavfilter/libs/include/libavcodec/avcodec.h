@@ -4887,7 +4887,7 @@ int avcodec_decode_audio4(AVCodecContext *avctx, AVFrame *frame,
  *
  * @deprecated Use avcodec_send_packet() and avcodec_receive_frame().
  */
-attribute_deprecated
+//attribute_deprecated
 int avcodec_decode_video2(AVCodecContext *avctx, AVFrame *picture,
                          int *got_picture_ptr,
                          const AVPacket *avpkt);

@@ -1,1 +1,1 @@
-include ':app', ':ffmpegandroiddecoder', ':ffmpegandroidplayer', ':ffmpegandroidavfilter', ':ffmpegandroidwallpaper'
+include ':app', ':ffmpegandroiddecoder', ':ffmpegandroidplayer', ':ffmpegandroidavfilter', ':ffmpegandroidwallpaper', ':ffmpegandroidcameraencoder', ':ffmpegandroidcameralive', ':ffmpegandroidaddmusic'
